@@ -8,38 +8,38 @@
 ## Password Strength Results
 Tested five passwords on [passwordmeter.com](https://passwordmeter.com):
 
-1. **Password 1: `password123`**
-   - **Score**: ~20% (Weak)
+1. **Password 1: `HelloWorld`**
+   - **Score**: ~37% (Weak)
    - **Feedback**: Common word, short length, lacks symbols.
    - **Issues**: Vulnerable to dictionary and brute force attacks.
 
-2. **Password 2: `HelloWorld`**
-   - **Score**: ~30% (Weak)
+2. **Password 2: `password123`**
+   - **Score**: ~43% (Weak)
    - **Feedback**: Lacks numbers and symbols, dictionary words used.
    - **Issues**: Easily cracked by dictionary attacks.
 
-3. **Password 3: `P@ssw0rd2025`**
-   - **Score**: ~60% (Medium)
+3. **Password 3: `Password@0`**
+   - **Score**: ~72% (Medium)
    - **Feedback**: Good mix of characters, but predictable pattern.
    - **Issues**: Moderate resistance to brute force, still guessable.
 
-4. **Password 4: `Tr0ub4dor&3xplor3r`**
-   - **Score**: ~85% (Strong)
+4. **Password 4: `Tr0ub4dor&`**
+   - **Score**: ~87% (Strong)
    - **Feedback**: Long, diverse characters, no dictionary words.
    - **Issues**: Strong but requires memorization or password manager.
 
-5. **Password 5: `Cyb3r$ecur1ty_Rul3z#2025`**
-   - **Score**: ~95% (Very Strong)
+5. **Password 5: `Cyber@8Tw*qas`**
+   - **Score**: ~100% (Very Strong)
    - **Feedback**: Long, complex, diverse characters, excellent entropy.
    - **Issues**: None, ideal for high-security accounts.
 
-- **Screenshot**: `screenshots/password_strength.png`
+- **Screenshot**: `Screenshots/password_strength.png`
 
 ## Best Practices for Strong Passwords
 - **Length**: Minimum 12 characters.
 - **Diversity**: Include uppercase, lowercase, numbers, and symbols.
 - **Avoid Predictability**: No common words, patterns, or personal info.
-- **Passphrases**: Use random word combinations (e.g., `CorrectHorseBatteryStaple`).
+- **Passphrases**: Use random word combinations (e.g., `Elevatelabsinternships`).
 - **No Reuse**: Unique passwords per account.
 - **Source**: [NIST SP 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html)
 
@@ -60,7 +60,7 @@ Tested five passwords on [passwordmeter.com](https://passwordmeter.com):
 - **Source**: [OWASP Password Strength](https://owasp.org/www-community/controls/Password_Management)
 
 ## Password Complexity and Security
-- **Complexity**: Mixed characters increase entropy, resisting brute force (e.g., `Cyb3r$ecur1ty_Rul3z#2025` takes years to crack vs. seconds for `password123`).
+- **Complexity**: Mixed characters increase entropy, resisting brute force (e.g., `Cyber@8Tw*qas` takes years to crack vs. seconds for `password123`).
 - **Length**: Each additional character exponentially increases cracking time.
 - **Diversity**: Thwarts dictionary attacks by avoiding predictable patterns.
 - **Security**: Strong passwords, paired with MFA, significantly reduce unauthorized access risks.
@@ -71,11 +71,10 @@ Tested five passwords on [passwordmeter.com](https://passwordmeter.com):
 - **Next Steps**: Adopt password managers and MFA for all accounts.
 
 ## Files Included
-- `screenshots/password_strength.png`: Screenshot of passwordmeter.com results.
+- `Screenshots/password_strength.png`: Screenshot of passwordmeter.com results.
 - `password_strength_report.md`: This report.
 - `README.md`: Task overview.
-- `interview_prep.md`: Interview question answers.
 - `notes.md`: Password creation and testing steps.
 
 ## Portfolio
-This task is part of my Elevate Labs internship portfolio: [Elevate-Labs-Internship-Tasks](https://github.com/nuclearatom/Elevate-Labs-Internship-Tasks).
+This task is part of my Elevate Labs internship portfolio: [Elevate-Labs-Internship-Tasks](https://github.com/Nucl3arAt0m/Elevate-Labs-Internship-Tasks).
