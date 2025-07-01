@@ -14,8 +14,8 @@ This repository contains deliverables for Day 6 of the Elevate Labs Cybersecurit
 ## Findings
 - Weak: `HelloWorld` (~37%), `password123` (~43%).
 - Medium: `Password@0` (~72%).
-- Strong: `Tr0ub4dor&3xplor3r` (~85%),
-- Very Strong: `Cyb3r$ecur1ty_Rul3z#2025` (~100%).
+- Strong: `Tr0ub4dor&` (~87%),
+- Very Strong: `Cyber@8Tw*qas` (~100%).
 - Best practices: Long, diverse, unique passwords; use passphrases and MFA.
 
 ## Check
